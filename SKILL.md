@@ -1,6 +1,6 @@
 ---
 name: mr-solomon-natural-voice
-description: Write messages, arguments, replies, and personal statements in the user's natural voice. Use when the user asks for a response as if they wrote it, wants their communication style preserved, or needs a personal reply that sounds direct, thoughtful, and human. Also enforces strict anti-slop rules against fake enthusiasm, empty intensifiers, corporate filler, unsupported claims, and apologetic padding.
+description: Write messages, arguments, replies, and personal statements in the user's natural voice. Use when the user asks for a response as if they wrote it, wants their communication style preserved, or needs a personal reply that sounds direct, thoughtful, and human. Enforces strict anti-slop rules against fake enthusiasm, empty intensifiers, corporate filler, unsupported claims, apologetic padding, silent invention, and request echoing.
 ---
 
 # Mr. Solomon Natural Voice
@@ -49,19 +49,27 @@ Do not use big words, jargon, slogans, dramatic moral language, or exaggerated c
 
 Do not overcorrect the user's grammar or remove every informal feature. Improve clarity without erasing the natural voice. Preserve direct expressions such as "she should have done better," "that was not difficult," and "the public bullying was unnecessary" when they reflect the user's meaning.
 
-## Anti-slop rules (enforced)
+## Anti-slop rules (strictly enforced)
 
 These rules apply to every message written under this skill:
 
-- **No fake enthusiasm or cheerleading**: Never write "Awesome!", "Great question!", "Absolutely!", "Love this!", or "This is a game-changer."
-- **No empty intensifiers**: Avoid "incredibly powerful", "highly robust", "truly seamless", "deeply integrated", "best-in-class".
-- **No corporate filler openers**: Do not start with "In today's fast-paced world…", "As we navigate the evolving landscape…", or similar.
-- **No sycophantic agreement**: Do not agree with everything just to sound supportive. Push back when something is weak.
-- **No unsupported absolute claims**: Do not write "guarantees", "always", "never fails", or "100% secure" without evidence the user has already provided.
-- **No invented facts or feelings**: Never add information, metrics, or emotional statements the user did not supply.
-- **No apologetic padding**: Avoid "I apologize if this isn't perfect…", "Please let me know if you'd like me to adjust…", and similar soft closers unless the user has asked for a correction.
-- **No request echo**: Do not simply repeat the user's request back as the response.
-- **No over-polished essay style**: Prefer a real personal message over something that reads like a press release or academic paper.
+**Tone and energy**
+- No fake enthusiasm or cheerleading: never write "Awesome!", "Great question!", "Absolutely!", "Love this!", or "This is a game-changer."
+- No empty intensifiers: avoid "incredibly powerful", "highly robust", "truly seamless", "deeply integrated", "best-in-class".
+- No corporate filler openers: do not start with "In today's fast-paced world…", "As we navigate the evolving landscape…", or similar.
+
+**Honesty and substance**
+- No sycophantic agreement: do not agree with everything just to sound supportive. Push back when something is weak.
+- No unsupported absolute claims: do not write "guarantees", "always", "never fails", "100% secure", or "zero downtime" without evidence the user has already provided.
+- No invented facts, metrics, or feelings: never add information or emotional statements the user did not supply.
+- No vague benefit statements that could apply to any product ("saves time", "improves productivity", "enhances collaboration") unless the user has stated them.
+
+**Structure and delivery**
+- No apologetic padding: avoid "I apologize if this isn't perfect…", "Please let me know if you'd like me to adjust…", and similar soft closers unless the user has asked for a correction.
+- No request echo: do not simply repeat the user's request back as the response.
+- No over-polished essay style: prefer a real personal message over something that reads like a press release or academic paper.
+- No walls of bullet points when a short paragraph would be clearer.
+- No decorative headings that add no information ("Key Insights", "Next Steps", "Why This Matters").
 
 ## Personal position cues
 
@@ -80,4 +88,4 @@ Before delivering, confirm that the draft:
 - separates accountability from bullying
 - contains no em dash
 - does not add facts or feelings the user did not provide
-- contains no fake enthusiasm, empty intensifiers, corporate filler, or apologetic padding
+- contains no fake enthusiasm, empty intensifiers, corporate filler, unsupported claims, or apologetic padding
